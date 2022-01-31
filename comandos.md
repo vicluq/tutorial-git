@@ -13,3 +13,6 @@ git add .
 
 ### Adicionar uma pasta específica ao radar do git
 git add ./pasta
+
+## Criando novas versões (commit)
+git commit -m "mensagem"

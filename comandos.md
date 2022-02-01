@@ -26,3 +26,9 @@ N = quantos commits voce quer voltar
 ## Enviar contudo para o Repositório
 git push -set--upstrean origin master
 git push [remote] [branch]
+
+## Trazer contudo do repositório
+git pull [remote] [branch]
+
+## Adicionar Remotes
+git remote add [nome_do_remote] [url_do_repo_remoto]

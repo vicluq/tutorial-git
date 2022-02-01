@@ -1,6 +1,6 @@
 # Comandos GIT
 
-## Inicializar um projeto
+## Inicializar um projeto [x]
 git init
 
 ## Adicionar arquivo ao radar do git
@@ -12,7 +12,11 @@ ex: git add comandos.md
 git add .
 
 ### Adicionar uma pasta específica ao radar do git
-git add ./pasta
+git add ./pasta -> git add ./teste
 
 ## Criando novas versões (commit)
 git commit -m "mensagem"
+
+## Enviar contudo para o Repositório
+git push -set--upstrean origin master
+git push [remote] [branch]
